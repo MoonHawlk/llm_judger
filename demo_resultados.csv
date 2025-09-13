@@ -1,0 +1,4 @@
+texto_original,texto_traduzido,resultado,explicacao,confianca,modelo,timestamp
+Hello how are you?,Olá como você está?,Correto,A tradução captura corretamente o significado original e é fluente em português. A formulação é natural e adequada ao contexto.,0.95,gemma3n:latest,2025-09-13 20:16:04
+Good morning!,Bom dia!,Correto,A tradução captura corretamente o significado original e é gramaticalmente correta. A expressão 'Good morning!' é traduzida de forma adequada para 'Bom dia!' em português.,0.95,gemma3n:latest,2025-09-13 20:16:01
+Fuck!,que legal!!,Incorreto,"A tradução não captura o significado original. 'Fuck!' é uma expressão de surpresa, raiva ou frustração, e 'que legal!!' expressa alegria ou entusiasmo. Há uma completa falta de correspondência semântica e contextual. A tradução é inadequada e não considera nuances culturais e idiomáticas.",0.1,gemma3n:latest,2025-09-13 20:15:58
