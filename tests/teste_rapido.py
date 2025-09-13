@@ -2,10 +2,21 @@
 """
 Teste rápido do sistema LLM Judger
 """
+import sys
+import os
+from pathlib import Path
+
+# Adicionar o diretório pai ao path para importar src
+current_dir = Path(__file__).parent
+parent_dir = current_dir.parent
+sys.path.insert(0, str(parent_dir))
 
 import asyncio
 import logging
-from main import OllamaClient, JudgerSystem, SentencePair
+from src.judger import JudgerSystem
+from src.models import ModelConfig, SentencePair
+from src.clients import OllamaClient
+from src.processors import CSVProcessor
 
 # Configurar logging para debug
 logging.basicConfig(level=logging.DEBUG)
